@@ -1,0 +1,96 @@
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd ..
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs
+$ git clone https://github.com/laiagomezmessia/IronLaia.git
+Cloning into 'IronLaia'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs
+$ cd IronLaia
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ touch about.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ echo "I have two cats named Miso and Sake" >> about.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ ls
+README.md  about.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ git add .
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ git commit -m 'lab complete'
+[main 13b20a4] lab complete
+ 1 file changed, 1 insertion(+)
+ create mode 100644 about.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/laiagomezmessia/IronLaia.git
+
+Pair Programming Exercise
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ git clone https://github.com/laiagomezmessia/IronCatalina.git
+Cloning into 'IronCatalina'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia (main)
+$ cd IronCatalina
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia/IronCatalina (main)
+$ touch laia.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia/IronCatalina (main)
+$ ls
+about.txt  laia.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia/IronCatalina (main)
+$ echo "I enrolled in Ironhack's Data Analytics bootcamp because I want a change in my career" >> laia.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia/IronCatalina (main)
+$ git add .
+warning: in the working copy of 'laia.txt', LF will be replaced by CRLF the next time Git touches it
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia/IronCatalina (main)
+$ git commit -m 'laia.txt added'
+[main c2fd3c9] laia.txt added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 laia.txt
+
+laiag@LAPTOP-7FLMRPTN MINGW64 ~/IH-Labs/IronLaia/IronCatalina (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 357 bytes | 357.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/laiagomezmessia/IronCatalina.git
+   ac03ce2..c2fd3c9  main -> main
+
+Pull request done
+catimazzuferi merged 1 commit into catimazzuferi:main from laiagomezmessia:main
+
+Pull request accepted and merged
+laiagomezmessia merged 1 commit into laiagomezmessia:main from SSOCosta:main
